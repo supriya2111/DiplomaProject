@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PracticleAssignmentMonitoring">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos/cos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.18.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/freemarker-2.3.18/freemarker-2.3.18">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api-2.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsp-api-2.1/jsp-api-2.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.0-sources.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.0-sources/joda-time-2.0-sources">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.1/commons-logging-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.apache.commons.io.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org.apache.commons.io/org.apache.commons.io">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient-4.3.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient-4.3.6/httpclient-4.3.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.6/commons-codec-1.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="joda-time-2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/joda-time-2.0/joda-time-2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jdbc-mysql.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jdbc-mysql/jdbc-mysql">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api/servlet-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.18-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.18-bin/mysql-connector-java-5.1.18-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1.3/commons-logging-1.1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="JavaLib.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/JavaLib/JavaLib">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.2.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.2.2/commons-fileupload-1.2.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="PracticleAssignmentMonitoring"/>
+        <property name="java-output-path" value="/PracticleAssignmentMonitoring/build/classes"/>
+    </wb-module>
+</project-modules>
